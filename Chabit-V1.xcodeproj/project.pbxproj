@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C897C642465818878FF1FA /* Pods_Chabit_V1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA13BC50729EBC594C5309E /* Pods_Chabit_V1.framework */; };
+		EBF81C2A22E0754A00BBE4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF81C2922E0754A00BBE4CF /* AppDelegate.swift */; };
+		EBF81C2C22E0754A00BBE4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF81C2B22E0754A00BBE4CF /* ViewController.swift */; };
+		EBF81C2F22E0754A00BBE4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF81C2D22E0754A00BBE4CF /* Main.storyboard */; };
+		EBF81C3222E0754A00BBE4CF /* Chabit_V1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBF81C3022E0754A00BBE4CF /* Chabit_V1.xcdatamodeld */; };
+		EBF81C3422E0754B00BBE4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF81C3322E0754B00BBE4CF /* Assets.xcassets */; };
+		EBF81C3722E0754B00BBE4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF81C3522E0754B00BBE4CF /* LaunchScreen.storyboard */; };
+		EBF81C4722E0767800BBE4CF /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF81C4222E0767800BBE4CF /* OnBoardingViewController.swift */; };
+		EBF81C4822E0767800BBE4CF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF81C4322E0767800BBE4CF /* SettingViewController.swift */; };
+		EBF81C4922E0767800BBE4CF /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF81C4422E0767800BBE4CF /* ProgressViewController.swift */; };
+		EBF81C4A22E0767800BBE4CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF81C4522E0767800BBE4CF /* HomeViewController.swift */; };
+		EBF81C4D22E0769600BBE4CF /* CardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF81C4C22E0769600BBE4CF /* CardUIView.swift */; };
+		EBF81C4F22E076A100BBE4CF /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF81C4E22E076A100BBE4CF /* Habit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DA13BC50729EBC594C5309E /* Pods_Chabit_V1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chabit_V1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E4149FD1615056FB64E0CA /* Pods-Chabit-V1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chabit-V1.release.xcconfig"; path = "Target Support Files/Pods-Chabit-V1/Pods-Chabit-V1.release.xcconfig"; sourceTree = "<group>"; };
+		BB9B9CC62E3516317FD528E1 /* Pods-Chabit-V1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chabit-V1.debug.xcconfig"; path = "Target Support Files/Pods-Chabit-V1/Pods-Chabit-V1.debug.xcconfig"; sourceTree = "<group>"; };
+		EBF81C2622E0754A00BBE4CF /* Chabit-V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chabit-V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF81C2922E0754A00BBE4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF81C2B22E0754A00BBE4CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBF81C2E22E0754A00BBE4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF81C3122E0754A00BBE4CF /* Chabit_V1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chabit_V1.xcdatamodel; sourceTree = "<group>"; };
+		EBF81C3322E0754B00BBE4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF81C3622E0754B00BBE4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF81C3822E0754B00BBE4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF81C4222E0767800BBE4CF /* OnBoardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		EBF81C4322E0767800BBE4CF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		EBF81C4422E0767800BBE4CF /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		EBF81C4522E0767800BBE4CF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EBF81C4C22E0769600BBE4CF /* CardUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardUIView.swift; sourceTree = "<group>"; };
+		EBF81C4E22E076A100BBE4CF /* Habit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF81C2322E0754A00BBE4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C897C642465818878FF1FA /* Pods_Chabit_V1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58CFD04C26E960EB6D194431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B9CC62E3516317FD528E1 /* Pods-Chabit-V1.debug.xcconfig */,
+				81E4149FD1615056FB64E0CA /* Pods-Chabit-V1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1F23C7171D589CF78568F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA13BC50729EBC594C5309E /* Pods_Chabit_V1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF81C1D22E0754A00BBE4CF = {
+			isa = PBXGroup;
+			children = (
+				EBF81C4B22E0768500BBE4CF /* Helper */,
+				EBF81C4022E0762A00BBE4CF /* Controller */,
+				EBF81C3F22E0762400BBE4CF /* View */,
+				EBF81C3E22E0761E00BBE4CF /* Model */,
+				EBF81C2822E0754A00BBE4CF /* Chabit-V1 */,
+				EBF81C2722E0754A00BBE4CF /* Products */,
+				58CFD04C26E960EB6D194431 /* Pods */,
+				A1F23C7171D589CF78568F59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF81C2722E0754A00BBE4CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF81C2622E0754A00BBE4CF /* Chabit-V1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF81C2822E0754A00BBE4CF /* Chabit-V1 */ = {
+			isa = PBXGroup;
+			children = (
+				EBF81C2922E0754A00BBE4CF /* AppDelegate.swift */,
+				EBF81C3322E0754B00BBE4CF /* Assets.xcassets */,
+				EBF81C3522E0754B00BBE4CF /* LaunchScreen.storyboard */,
+				EBF81C3822E0754B00BBE4CF /* Info.plist */,
+				EBF81C3022E0754A00BBE4CF /* Chabit_V1.xcdatamodeld */,
+			);
+			path = "Chabit-V1";
+			sourceTree = "<group>";
+		};
+		EBF81C3E22E0761E00BBE4CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBF81C4E22E076A100BBE4CF /* Habit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBF81C3F22E0762400BBE4CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBF81C2D22E0754A00BBE4CF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBF81C4022E0762A00BBE4CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBF81C4522E0767800BBE4CF /* HomeViewController.swift */,
+				EBF81C4222E0767800BBE4CF /* OnBoardingViewController.swift */,
+				EBF81C4422E0767800BBE4CF /* ProgressViewController.swift */,
+				EBF81C4322E0767800BBE4CF /* SettingViewController.swift */,
+				EBF81C2B22E0754A00BBE4CF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBF81C4B22E0768500BBE4CF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EBF81C4C22E0769600BBE4CF /* CardUIView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF81C2522E0754A00BBE4CF /* Chabit-V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF81C3B22E0754B00BBE4CF /* Build configuration list for PBXNativeTarget "Chabit-V1" */;
+			buildPhases = (
+				0B9B66C434E7B5B9D01B5375 /* [CP] Check Pods Manifest.lock */,
+				EBF81C2222E0754A00BBE4CF /* Sources */,
+				EBF81C2322E0754A00BBE4CF /* Frameworks */,
+				EBF81C2422E0754A00BBE4CF /* Resources */,
+				5EEC01E55AC9F0A587EAE038 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chabit-V1";
+			productName = "Chabit-V1";
+			productReference = EBF81C2622E0754A00BBE4CF /* Chabit-V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF81C1E22E0754A00BBE4CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = C2G10;
+				TargetAttributes = {
+					EBF81C2522E0754A00BBE4CF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EBF81C2122E0754A00BBE4CF /* Build configuration list for PBXProject "Chabit-V1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF81C1D22E0754A00BBE4CF;
+			productRefGroup = EBF81C2722E0754A00BBE4CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF81C2522E0754A00BBE4CF /* Chabit-V1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF81C2422E0754A00BBE4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF81C3722E0754B00BBE4CF /* LaunchScreen.storyboard in Resources */,
+				EBF81C3422E0754B00BBE4CF /* Assets.xcassets in Resources */,
+				EBF81C2F22E0754A00BBE4CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B9B66C434E7B5B9D01B5375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chabit-V1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EEC01E55AC9F0A587EAE038 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chabit-V1/Pods-Chabit-V1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chabit-V1/Pods-Chabit-V1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chabit-V1/Pods-Chabit-V1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF81C2222E0754A00BBE4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF81C2C22E0754A00BBE4CF /* ViewController.swift in Sources */,
+				EBF81C3222E0754A00BBE4CF /* Chabit_V1.xcdatamodeld in Sources */,
+				EBF81C4A22E0767800BBE4CF /* HomeViewController.swift in Sources */,
+				EBF81C4922E0767800BBE4CF /* ProgressViewController.swift in Sources */,
+				EBF81C4D22E0769600BBE4CF /* CardUIView.swift in Sources */,
+				EBF81C4F22E076A100BBE4CF /* Habit.swift in Sources */,
+				EBF81C2A22E0754A00BBE4CF /* AppDelegate.swift in Sources */,
+				EBF81C4722E0767800BBE4CF /* OnBoardingViewController.swift in Sources */,
+				EBF81C4822E0767800BBE4CF /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBF81C2D22E0754A00BBE4CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF81C2E22E0754A00BBE4CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF81C3522E0754B00BBE4CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF81C3622E0754B00BBE4CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF81C3922E0754B00BBE4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF81C3A22E0754B00BBE4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF81C3C22E0754B00BBE4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9B9CC62E3516317FD528E1 /* Pods-Chabit-V1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46X9JWL5UU;
+				INFOPLIST_FILE = "Chabit-V1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fauzify.Chabit-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF81C3D22E0754B00BBE4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E4149FD1615056FB64E0CA /* Pods-Chabit-V1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46X9JWL5UU;
+				INFOPLIST_FILE = "Chabit-V1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fauzify.Chabit-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF81C2122E0754A00BBE4CF /* Build configuration list for PBXProject "Chabit-V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF81C3922E0754B00BBE4CF /* Debug */,
+				EBF81C3A22E0754B00BBE4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF81C3B22E0754B00BBE4CF /* Build configuration list for PBXNativeTarget "Chabit-V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF81C3C22E0754B00BBE4CF /* Debug */,
+				EBF81C3D22E0754B00BBE4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBF81C3022E0754A00BBE4CF /* Chabit_V1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBF81C3122E0754A00BBE4CF /* Chabit_V1.xcdatamodel */,
+			);
+			currentVersion = EBF81C3122E0754A00BBE4CF /* Chabit_V1.xcdatamodel */;
+			path = Chabit_V1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBF81C1E22E0754A00BBE4CF /* Project object */;
+}
